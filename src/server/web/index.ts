@@ -84,6 +84,12 @@ function buildEtaEngine(): (
 	}
 }
 
+// Config eta
+w.use(async (req: Request, res: Response, next: NextFunction) => {
+	res.locals.c = GetProfile()
+	return next()
+})
+
 // Router
 w.use(WebRouter)
 

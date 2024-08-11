@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<%~ include('./template/head', it) %>
+<%~ include('./template/top', it) %>
+
+<body>
+
+  <main>
+
+    <section class="py-2 text-center container">
+      <div class="row py-lg-2">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Yuuki</h1>
+          <p class="lead text-body-secondary">Hello my name is Yuuki in internet, I bought this domain because I really like Konno Yuuki (in 2021). on main site I hardly do any updates. so please just check out my other projects (that's still one bruh).</p>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-2 bg-body-tertiary">
+      <div class="container">
+
+        <div class="row justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="https://ps.yuuki.me/image/banner7.png" class="card-img-top">              
+              <div class="card-body">
+                <h5 class="card-title">YuukiPS</h5>
+                <p class="card-text">
+                YuukiPS is a private server for several famous anime games, it has been running for almost 3 years (2022-2024).
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://ps.yuuki.me" class="btn btn-sm btn-outline-secondary">Open</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="py-1 my-2">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item"><a href="/api" class="nav-link px-2 text-body-secondary">API</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">Yuuki ❤ <a href="https://siakbary.my.id/" class="link-underline link-underline-opacity-0">Akbar Yahya</a></p>
+  </footer>
+
+</body>
+
+<%~ include('./template/down', it) %>
+
+</html>

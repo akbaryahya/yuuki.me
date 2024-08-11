@@ -4,11 +4,17 @@ const r = express.Router()
 const log = new Logger("Web")
 
 r.all("/", (req: Request, res: Response) => {
-	res.send(`Hello1`)
+	//const t = req.t
+	res.render("index", {
+		title: "Home",
+		description: "tes",
+		keyword: "yuuki",
+		index: true
+	})
 })
 
 r.get("/api", (req: Request, res: Response) => {
-	res.send(`Hello2`)
+	res.send(`TODO`)
 })
 
 export default r

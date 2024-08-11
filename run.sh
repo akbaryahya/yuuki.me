@@ -4,9 +4,9 @@ metode=$1
 
 if [ "$metode" = "cloud" ];then
  echo "Run Cloud"
- #npm install
- #npm update
- #npm audit fix --force
+ npm install
+ npm update
+ npm audit fix --force
  npm run start -- --env prod
 fi
 
