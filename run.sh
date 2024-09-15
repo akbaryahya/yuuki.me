@@ -6,7 +6,7 @@ if [ "$metode" = "cloud" ];then
  echo "Run Cloud"
  npm install
  npm update
- npm audit fix --force
+ # npm audit fix --force
  npm run start -- --env prod
 fi
 

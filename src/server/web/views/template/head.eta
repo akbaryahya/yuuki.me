@@ -7,6 +7,7 @@
 
   <meta name="description" content="<%~ it.description %>" />
   <meta name="keywords" content="<%~ it.keyword %>">
+  <meta name="google-adsense-account" content="ca-pub-7101193278897464">
 
   <% if(it.index == true) { %>
   <meta name="robots" content="index">
